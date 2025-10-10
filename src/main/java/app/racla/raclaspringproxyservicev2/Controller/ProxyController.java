@@ -29,7 +29,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @RestController
-@RequestMapping("/api/v2/racla/proxy")
+@RequestMapping("/api/v3/racla/proxy")
 @RequiredArgsConstructor
 public class ProxyController {
     private final List<String> allowedDomains = Arrays.asList("https://v-archive.net",
